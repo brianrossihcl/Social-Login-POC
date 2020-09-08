@@ -75,9 +75,25 @@ In Social Login, below two options are implemented
 **Google**
  
 1. You need to install the react-google-login in your project as a dependency.
+
    `npm install react-google-login`
  
-2.  
+2.  Replace the <YOUR_GOOGLE_CLIENT_ID> with your Google client ID in GoogleSignIn.tsx file.
+
+**Facebook**
+
+1. You need to install the react-facebook-login in your project as a dependency.
+
+   `npm install react-facebook-login`
+ 
+2.  Replace the <YOUR_FACEBOOK_APP_ID> with your Facebook App Id in FacebookSignIn.tsx  file.
+
+
+Once done with the changes then import these components in SignInLayout.tsx file and use it as below
+
+        `<GoogleSignIn />
+         <FacebookSignIn />`
+ 
  
  
  
