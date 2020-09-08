@@ -33,7 +33,7 @@ const GoogleSignIn: React.FC<any> = (props: any) => {
     return (
         <div className="sbox">
             <GoogleLogin
-                clientId="820020950062-u2p9b3vudsor6rt1cpicgb6ssrquvcjj.apps.googleusercontent.com"
+                clientId="<YOUR_GOOGLE_CLIENT_ID>"
                 buttonText="Login with Google"
                 theme="light"
                 className="GoogleBtn"
