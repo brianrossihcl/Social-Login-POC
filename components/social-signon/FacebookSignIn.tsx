@@ -36,7 +36,7 @@ const FacebookSignIn: React.FC<any> = (props: any) => {
     return (
         <div className="sbox">
             <FacebookLogin
-                appId="3311479885598921"
+                appId="<YOUR_FACEBOOK_APP_ID>"
                 autoLoad={false}
                 fields="first_name,last_name,name,email,picture"
                 callback={handleSocialLogin}
