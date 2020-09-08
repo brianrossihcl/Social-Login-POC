@@ -28,10 +28,10 @@ import {
   StyledTypography,
 } from "../../StyledUI";
 import GADataService from "../../../_foundation/apis/gtm/gaData.service";
-import GoogleSignIn from "../../social-signon/GoogleSignIn";
 {/* START- SOCIAL LOGIN */}
+import GoogleSignIn from "../../social-signon/GoogleSignIn";
 import FacebookSignIn from "../../social-signon/FacebookSignIn";
-import InstagramSignIn from "../../social-signon/InstagramSignIn";
+
 {/* END- SOCIAL LOGIN */}
 
 interface SignInContext {
