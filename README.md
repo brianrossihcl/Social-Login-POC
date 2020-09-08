@@ -91,8 +91,8 @@ In Social Login, below two options are implemented
 
 Once done with the changes then import these components in SignInLayout.tsx file and use it as below
 
-        `<GoogleSignIn />
-         <FacebookSignIn />`
+        <GoogleSignIn />
+        <FacebookSignIn />
  
  
  
