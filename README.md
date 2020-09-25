@@ -7,6 +7,7 @@
 **Prerequisites**
 
 •	HCL Commerce V9.1.x
+
 •	HCL Commerce V9.1.x React Store SDK
 
 In Social Login, below two options are implemented
